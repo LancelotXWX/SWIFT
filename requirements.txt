@@ -1,0 +1,8 @@
+numpy==1.24.4
+matplotlib==3.7.5
+pandas==2.0.3
+scikit-learn==1.3.2
+torch==2.4.1
+PyWavelets==1.4.1
+pytorch_wavelets==1.3.0
+thop
