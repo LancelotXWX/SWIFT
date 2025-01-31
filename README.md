@@ -2,7 +2,7 @@
 
 [![arXiv](https://img.shields.io/badge/arXiv-2501.16178-B31B1B.svg)](https://arxiv.org/abs/2501.16178)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)  
-[![Python](https://img.shields.io/badge/python-3.7%2B-blue)](https://www.python.org/)  
+[![Python](https://img.shields.io/badge/python-3.9%2B-blue)](https://www.python.org/)  
 
 SWIFT is a lightweight and efficient model for **Long-term Time Series Forecasting (LTSF)** that integrates **wavelet decomposition**, **cross-band information fusion**, and **sub-series mapping** techniques to improve forecasting accuracy, especially in resource-constrained environments.  
 
@@ -20,11 +20,9 @@ SWIFT is a lightweight and efficient model for **Long-term Time Series Forecasti
 
 ## 📜 Table of Contents  
 
-- [Installation](#installation)  
-- [Usage](#usage)  
-- [Results](#results)  
+- [Installation](#installation)
+- [Run Experiment](#run)
 - [Citing SWIFT](#citing-swift)  
-- [License](#license)  
 
 ---
 
@@ -36,3 +34,22 @@ Clone the repository and install dependencies:
 git clone https://github.com/LancelotXWX/SWIFT.git
 cd SWIFT
 pip install -r requirements.txt
+
+## Run
+
+To run the experiment in paper:
+```bash
+bash scripts/SWIFT/etth1.sh
+bash scripts/SWIFT/traffic.sh
+
+## 📌 Citing SWIFT  
+
+If you find SWIFT useful in your research, please cite:  
+
+```bibtex
+@article{xie2025swift,
+  title={SWIFT: Mapping Sub-series with Wavelet Decomposition Improves Time Series Forecasting},
+  author={Xie, Wenxuan and Cao, Fanpu},
+  journal={arXiv preprint arXiv:2501.16178},
+  year={2025}
+}
