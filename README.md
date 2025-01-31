@@ -34,13 +34,15 @@ Clone the repository and install dependencies:
 git clone https://github.com/LancelotXWX/SWIFT.git
 cd SWIFT
 pip install -r requirements.txt
+```
 
-## Run
+## 🔥 Run
 
 To run the experiment in paper:
 ```bash
 bash scripts/SWIFT/etth1.sh
 bash scripts/SWIFT/traffic.sh
+```
 
 ## 📌 Citing SWIFT  
 
@@ -53,3 +55,4 @@ If you find SWIFT useful in your research, please cite:
   journal={arXiv preprint arXiv:2501.16178},
   year={2025}
 }
+```
