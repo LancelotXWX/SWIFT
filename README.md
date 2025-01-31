@@ -18,14 +18,6 @@ SWIFT is a lightweight and efficient model for **Long-term Time Series Forecasti
 
 ---
 
-## 📜 Table of Contents  
-
-- [Installation](#installation)
-- [Run Experiment](#run)
-- [Citing SWIFT](#citing-swift)  
-
----
-
 ## 🔧 Installation  
 
 Clone the repository and install dependencies:  
@@ -36,6 +28,8 @@ cd SWIFT
 pip install -r requirements.txt
 ```
 
+---
+
 ## 🔥 Run
 
 To run the experiment in paper:
@@ -43,6 +37,8 @@ To run the experiment in paper:
 bash scripts/SWIFT/etth1.sh
 bash scripts/SWIFT/traffic.sh
 ```
+
+---
 
 ## 📌 Citing SWIFT  
 
