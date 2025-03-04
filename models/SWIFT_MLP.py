@@ -68,7 +68,6 @@ class Model(nn.Module):
         self.conv_kernel = configs.conv_kernel
         self.use_convdropout = configs.use_convdropout
         self.conv_dropout = configs.conv_dropout
-        self.fc_dropout = configs.fc_dropout
         self.wav = 'haar'
         self.J = 1
         self.hidden_size = configs.hidden_size
@@ -100,7 +99,6 @@ class Model(nn.Module):
 
         if self.use_convdropout:
             self.dropout1 = nn.Dropout(self.conv_dropout)
-        self.dropout2 = nn.Dropout(self.fc_dropout)
 
     def forward(self, x):
         # normalization and permute     b,s,c -> b,c,s
