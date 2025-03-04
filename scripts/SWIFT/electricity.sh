@@ -23,12 +23,11 @@ python -u run_longExp.py \
   --pred_len 96 \
   --conv_kernel 25 \
   --hidden_size 128 \
-  --use_convdropout \
   --conv_dropout 0.01 \
   --enc_in 321 \
   --train_epochs 30 \
   --patience 5 \
-  --itr 1 --batch_size 128 --learning_rate 0.03
+  --itr 1 --batch_size 4 --learning_rate 0.001
 
 python -u run_longExp.py \
   --is_training 1 \
