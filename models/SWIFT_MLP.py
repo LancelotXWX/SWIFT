@@ -71,7 +71,6 @@ class Model(nn.Module):
         self.fc_dropout = configs.fc_dropout
         self.wav = 'haar'
         self.J = 1
-        self.non_linear = configs.non_linear
         self.hidden_size = configs.hidden_size
         self.not_independent = configs.not_independent
         self.no_revin = configs.no_revin
