@@ -23,6 +23,7 @@ python -u run_longExp.py \
   --pred_len 96 \
   --conv_kernel 25 \
   --hidden_size 128 \
+  --use_convdropout \
   --conv_dropout 0.01 \
   --enc_in 321 \
   --train_epochs 30 \
