@@ -12,7 +12,7 @@ if __name__ == '__main__':
     # basic config
     parser.add_argument('--is_training', type=int, required=True, default=1, help='status')
     parser.add_argument('--model_id', type=str, required=True, default='test', help='model id')
-    parser.add_argument('--model', type=str, required=True, default='SWIFT', help='model name')
+    parser.add_argument('--model', type=str, required=True, default='SWIFT_Linear', help='model name')
 
     # data loader
     parser.add_argument('--data', type=str, required=True, default='ETTm1', help='dataset type')
